@@ -5,6 +5,21 @@
     box-sizing: border-box;
 }
 
-body {
+.topNavigationContainer {
+    display: flex;
+    justify-content: center;
+}
 
+.listContainer {
+    display: flex;
+    width: 70%;
+}
+
+.listContainer li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.firstNavItem {
+    margin-right: auto;
 }
