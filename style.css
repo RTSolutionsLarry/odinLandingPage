@@ -38,23 +38,41 @@ body {
     width: var(--pageWidth);
 }
 
+.navigationSecondLevelContainer {
+    width: var(--pageInnerWidth);
+    display: flex; 
+}
+
 .headerSecondLevelContainer {
     width: var(--pageInnerWidth);
-    border: solid green 1px;
     display: flex; 
 }
 
 
 .siteDescriptionContainer,
 .siteImageConatiner {
-    flex: 1;
-    border: solid yellow 1px;
+    flex: 1 1 auto;
 }
     
+.logo {
+    width: 60px;
+    height: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    margin-right: auto;
+}
+
+.handShakeImage {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    overflow: hidden;  
+    border: #fff solid 1px;
+}
 
 .listContainer {
     display: flex;
-    border: solid red 1px;
+    justify-content: flex-end;
     width: var(--pageInnerWidth);
 }
 
