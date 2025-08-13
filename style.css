@@ -50,7 +50,9 @@ body {
 
 
 .siteDescriptionContainer,
-.siteImageContainer {
+.siteImageContainer,
+.quote,
+.quoteAuthor {
     width: 50%;
 }
     
@@ -130,4 +132,30 @@ button {
 
 .cardHeader {
     width: 100%;
+}
+
+.graySection {
+    width: var(--pageInnerWidth);
+    background-color: #e5e7eb;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.quote,
+.quoteAuthor {
+    color: #1F2937
+}
+
+.quote {
+    font-style: italic;
+    text-align: center;
+}
+
+.quoteAuthor {
+    font-weight: bold;
+    text-align: right;
+    font-size: small;
 }
