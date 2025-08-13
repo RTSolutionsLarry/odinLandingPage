@@ -137,7 +137,7 @@ button {
 .graySection {
     width: var(--pageInnerWidth);
     background-color: #e5e7eb;
-    height: 200px;
+    height: 180px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -158,4 +158,47 @@ button {
     font-weight: bold;
     text-align: right;
     font-size: small;
+}
+
+.secondWhiteSection {
+    width: var(--pageInnerWidth);
+    background-color: #fff;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.blueSection {
+    background-color: #3882F6;
+    width: 60%;
+    height: 60%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.actionTextHeader {
+    font-weight: bold;
+}
+
+.actionTextHeader,
+.actionText {
+    font-size: smaller;
+    width: 80%;
+}
+
+.actionText {
+    font-size: x-small;
+}
+
+.actionButton {
+    width: 50px;
+    font-size: x-small;
+}
+
+.actionButtonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
